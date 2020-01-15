@@ -35,9 +35,11 @@
                                     <color key="titleColor" white="1" alpha="0.66556078767123283" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nTh-ox-KXX">
-                                <rect key="frame" x="16" y="602" width="343" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nTh-ox-KXX">
+                                <rect key="frame" x="8" y="633" width="359" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="YKu-n4-8Wh"/>
+                                </constraints>
                                 <state key="normal" title="Don`t have an account?">
                                     <color key="titleColor" white="1" alpha="0.80003210616438358" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -54,6 +56,11 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.98823529409999999" green="0.52941176469999995" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BZe-zs-8CB" firstAttribute="bottom" secondItem="nTh-ox-KXX" secondAttribute="bottom" constant="4" id="6aZ-5s-U3e"/>
+                            <constraint firstItem="nTh-ox-KXX" firstAttribute="leading" secondItem="BZe-zs-8CB" secondAttribute="leading" constant="8" id="7Gk-UB-54s"/>
+                            <constraint firstItem="BZe-zs-8CB" firstAttribute="trailing" secondItem="nTh-ox-KXX" secondAttribute="trailing" constant="8" id="bVF-bX-XgI"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="BZe-zs-8CB"/>
                     </view>
                 </viewController>
