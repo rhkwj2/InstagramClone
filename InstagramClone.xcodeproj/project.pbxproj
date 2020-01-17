@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		929E8B2923D1B5D9008DEBAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929E8B2823D1B5D9008DEBAF /* Main.storyboard */; };
 		92B5DEBF23CDC0FD009DEDC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B5DEBE23CDC0FD009DEDC7 /* AppDelegate.swift */; };
 		92B5DEC123CDC0FD009DEDC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B5DEC023CDC0FD009DEDC7 /* SceneDelegate.swift */; };
 		92B5DEC823CDC10D009DEDC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B5DEC723CDC10D009DEDC7 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		929E8B2823D1B5D9008DEBAF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		92B5DEBB23CDC0FD009DEDC7 /* InstagramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B5DEBE23CDC0FD009DEDC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92B5DEC023CDC0FD009DEDC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				92B5DEBE23CDC0FD009DEDC7 /* AppDelegate.swift */,
 				92B5DED423CDC6BC009DEDC7 /* SigninViewController.swift */,
 				92B5DED223CDC48C009DEDC7 /* Start.storyboard */,
+				929E8B2823D1B5D9008DEBAF /* Main.storyboard */,
 				92B5DED623CDCC6B009DEDC7 /* SignUpViewController.swift */,
 				92B5DEC023CDC0FD009DEDC7 /* SceneDelegate.swift */,
 				92B5DEC723CDC10D009DEDC7 /* Assets.xcassets */,
@@ -154,6 +157,7 @@
 				92B5DECB23CDC10D009DEDC7 /* LaunchScreen.storyboard in Resources */,
 				92B5DEC823CDC10D009DEDC7 /* Assets.xcassets in Resources */,
 				92B5DED323CDC48C009DEDC7 /* Start.storyboard in Resources */,
+				929E8B2923D1B5D9008DEBAF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
