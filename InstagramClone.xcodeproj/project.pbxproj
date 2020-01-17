@@ -14,6 +14,11 @@
 		92B5DED323CDC48C009DEDC7 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B5DED223CDC48C009DEDC7 /* Start.storyboard */; };
 		92B5DED523CDC6BC009DEDC7 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B5DED423CDC6BC009DEDC7 /* SigninViewController.swift */; };
 		92B5DED723CDCC6B009DEDC7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B5DED623CDCC6B009DEDC7 /* SignUpViewController.swift */; };
+		92B5DED923D09C76009DEDC7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B5DED823D09C76009DEDC7 /* HomeViewController.swift */; };
+		92B5DEDB23D09CDA009DEDC7 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B5DEDA23D09CDA009DEDC7 /* SearchViewController.swift */; };
+		92B5DEDD23D09CF6009DEDC7 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B5DEDC23D09CF6009DEDC7 /* CameraViewController.swift */; };
+		92B5DEE123D09D2F009DEDC7 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B5DEE023D09D2F009DEDC7 /* ActivityViewController.swift */; };
+		92B5DEE323D09D50009DEDC7 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B5DEE223D09D50009DEDC7 /* UserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		92B5DED223CDC48C009DEDC7 /* Start.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
 		92B5DED423CDC6BC009DEDC7 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
 		92B5DED623CDCC6B009DEDC7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		92B5DED823D09C76009DEDC7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		92B5DEDA23D09CDA009DEDC7 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		92B5DEDC23D09CF6009DEDC7 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		92B5DEE023D09D2F009DEDC7 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		92B5DEE223D09D50009DEDC7 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 		92B5DEBD23CDC0FD009DEDC7 /* InstagramClone */ = {
 			isa = PBXGroup;
 			children = (
+				92B5DEE423D09D62009DEDC7 /* TabbarView */,
 				92B5DEBE23CDC0FD009DEDC7 /* AppDelegate.swift */,
 				92B5DED423CDC6BC009DEDC7 /* SigninViewController.swift */,
 				92B5DED223CDC48C009DEDC7 /* Start.storyboard */,
@@ -68,6 +79,18 @@
 				92B5DECC23CDC10D009DEDC7 /* Info.plist */,
 			);
 			path = InstagramClone;
+			sourceTree = "<group>";
+		};
+		92B5DEE423D09D62009DEDC7 /* TabbarView */ = {
+			isa = PBXGroup;
+			children = (
+				92B5DEE023D09D2F009DEDC7 /* ActivityViewController.swift */,
+				92B5DEE223D09D50009DEDC7 /* UserViewController.swift */,
+				92B5DEDC23D09CF6009DEDC7 /* CameraViewController.swift */,
+				92B5DEDA23D09CDA009DEDC7 /* SearchViewController.swift */,
+				92B5DED823D09C76009DEDC7 /* HomeViewController.swift */,
+			);
+			path = TabbarView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +164,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92B5DEDB23D09CDA009DEDC7 /* SearchViewController.swift in Sources */,
+				92B5DEE323D09D50009DEDC7 /* UserViewController.swift in Sources */,
+				92B5DED923D09C76009DEDC7 /* HomeViewController.swift in Sources */,
 				92B5DEBF23CDC0FD009DEDC7 /* AppDelegate.swift in Sources */,
+				92B5DEE123D09D2F009DEDC7 /* ActivityViewController.swift in Sources */,
 				92B5DEC123CDC0FD009DEDC7 /* SceneDelegate.swift in Sources */,
+				92B5DEDD23D09CF6009DEDC7 /* CameraViewController.swift in Sources */,
 				92B5DED723CDCC6B009DEDC7 /* SignUpViewController.swift in Sources */,
 				92B5DED523CDC6BC009DEDC7 /* SigninViewController.swift in Sources */,
 			);
