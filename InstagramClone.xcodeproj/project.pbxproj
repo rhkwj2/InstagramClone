@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		929E8B2923D1B5D9008DEBAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929E8B2823D1B5D9008DEBAF /* Main.storyboard */; };
+		929E8B2B23D1C52C008DEBAF /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929E8B2A23D1C52C008DEBAF /* Home.storyboard */; };
+		929E8B2D23D2B7EB008DEBAF /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929E8B2C23D2B7EB008DEBAF /* Search.storyboard */; };
+		929E8B2F23D2B870008DEBAF /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929E8B2E23D2B870008DEBAF /* Camera.storyboard */; };
+		929E8B3123D2B919008DEBAF /* Activity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929E8B3023D2B919008DEBAF /* Activity.storyboard */; };
+		929E8B3323D2B97B008DEBAF /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929E8B3223D2B97B008DEBAF /* User.storyboard */; };
 		92B5DEBF23CDC0FD009DEDC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B5DEBE23CDC0FD009DEDC7 /* AppDelegate.swift */; };
 		92B5DEC123CDC0FD009DEDC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B5DEC023CDC0FD009DEDC7 /* SceneDelegate.swift */; };
 		92B5DEC823CDC10D009DEDC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B5DEC723CDC10D009DEDC7 /* Assets.xcassets */; };
@@ -24,6 +29,11 @@
 
 /* Begin PBXFileReference section */
 		929E8B2823D1B5D9008DEBAF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		929E8B2A23D1C52C008DEBAF /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		929E8B2C23D2B7EB008DEBAF /* Search.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		929E8B2E23D2B870008DEBAF /* Camera.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
+		929E8B3023D2B919008DEBAF /* Activity.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Activity.storyboard; sourceTree = "<group>"; };
+		929E8B3223D2B97B008DEBAF /* User.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
 		92B5DEBB23CDC0FD009DEDC7 /* InstagramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B5DEBE23CDC0FD009DEDC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92B5DEC023CDC0FD009DEDC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +85,11 @@
 				92B5DED423CDC6BC009DEDC7 /* SigninViewController.swift */,
 				92B5DED223CDC48C009DEDC7 /* Start.storyboard */,
 				929E8B2823D1B5D9008DEBAF /* Main.storyboard */,
+				929E8B3223D2B97B008DEBAF /* User.storyboard */,
+				929E8B3023D2B919008DEBAF /* Activity.storyboard */,
+				929E8B2E23D2B870008DEBAF /* Camera.storyboard */,
+				929E8B2C23D2B7EB008DEBAF /* Search.storyboard */,
+				929E8B2A23D1C52C008DEBAF /* Home.storyboard */,
 				92B5DED623CDCC6B009DEDC7 /* SignUpViewController.swift */,
 				92B5DEC023CDC0FD009DEDC7 /* SceneDelegate.swift */,
 				92B5DEC723CDC10D009DEDC7 /* Assets.xcassets */,
@@ -155,9 +170,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				92B5DECB23CDC10D009DEDC7 /* LaunchScreen.storyboard in Resources */,
+				929E8B2F23D2B870008DEBAF /* Camera.storyboard in Resources */,
+				929E8B2B23D1C52C008DEBAF /* Home.storyboard in Resources */,
 				92B5DEC823CDC10D009DEDC7 /* Assets.xcassets in Resources */,
 				92B5DED323CDC48C009DEDC7 /* Start.storyboard in Resources */,
+				929E8B2D23D2B7EB008DEBAF /* Search.storyboard in Resources */,
 				929E8B2923D1B5D9008DEBAF /* Main.storyboard in Resources */,
+				929E8B3123D2B919008DEBAF /* Activity.storyboard in Resources */,
+				929E8B3323D2B97B008DEBAF /* User.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
