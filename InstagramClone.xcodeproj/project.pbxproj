@@ -61,6 +61,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		929E8B3423D6EC69008DEBAF /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				92B5DED223CDC48C009DEDC7 /* Start.storyboard */,
+				929E8B2E23D2B870008DEBAF /* Camera.storyboard */,
+				929E8B2C23D2B7EB008DEBAF /* Search.storyboard */,
+				929E8B2A23D1C52C008DEBAF /* Home.storyboard */,
+				929E8B2823D1B5D9008DEBAF /* Main.storyboard */,
+				929E8B3223D2B97B008DEBAF /* User.storyboard */,
+				929E8B3023D2B919008DEBAF /* Activity.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
 		92B5DEB223CDC0FC009DEDC7 = {
 			isa = PBXGroup;
 			children = (
@@ -83,15 +97,9 @@
 				92B5DEE423D09D62009DEDC7 /* TabbarView */,
 				92B5DEBE23CDC0FD009DEDC7 /* AppDelegate.swift */,
 				92B5DED423CDC6BC009DEDC7 /* SigninViewController.swift */,
-				92B5DED223CDC48C009DEDC7 /* Start.storyboard */,
-				929E8B2823D1B5D9008DEBAF /* Main.storyboard */,
-				929E8B3223D2B97B008DEBAF /* User.storyboard */,
-				929E8B3023D2B919008DEBAF /* Activity.storyboard */,
-				929E8B2E23D2B870008DEBAF /* Camera.storyboard */,
-				929E8B2C23D2B7EB008DEBAF /* Search.storyboard */,
-				929E8B2A23D1C52C008DEBAF /* Home.storyboard */,
 				92B5DED623CDCC6B009DEDC7 /* SignUpViewController.swift */,
 				92B5DEC023CDC0FD009DEDC7 /* SceneDelegate.swift */,
+				929E8B3423D6EC69008DEBAF /* storyboard */,
 				92B5DEC723CDC10D009DEDC7 /* Assets.xcassets */,
 				92B5DEC923CDC10D009DEDC7 /* LaunchScreen.storyboard */,
 				92B5DECC23CDC10D009DEDC7 /* Info.plist */,

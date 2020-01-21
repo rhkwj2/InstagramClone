@@ -173,6 +173,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rjV-Oz-NmF"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="WoE-mu-65P" id="Za0-oD-fgH"/>
+                        <outlet property="passwordTextField" destination="70L-3T-c4z" id="f7O-Kj-Y5D"/>
+                        <outlet property="profileImage" destination="thQ-gO-Crw" id="DJB-ch-dr6"/>
+                        <outlet property="userNameTextField" destination="tA5-of-Y9p" id="Nb0-uT-2Av"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uRa-qB-jfu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -193,6 +199,6 @@
         <image name="icons8-user-100" width="100" height="100"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="bgM-Pa-H6f"/>
+        <segue reference="bfk-kK-6tb"/>
     </inferredMetricsTieBreakers>
 </document>
