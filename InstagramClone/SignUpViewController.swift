@@ -7,23 +7,16 @@
 //
 
 import UIKit
+import FirebaseAuth
+
 
 class SignUpViewController: UIViewController {
    
     
     @IBOutlet weak var userNameTextField: UITextField!
-    
     @IBOutlet weak var profileImage: UIImageView!
-    
-    
     @IBOutlet weak var emailTextField: UITextField!
-    
-    
     @IBOutlet weak var passwordTextField: UITextField!
-  
-    
-    
-    
     @IBAction func dismissOnClicked(_ sender: Any) { dismiss(animated: true, completion: nil)
     }
     
@@ -74,4 +67,16 @@ class SignUpViewController: UIViewController {
     }
     */
 
+    
+    
+    @IBAction func signUpButtonPressed(_ sender: UIButton) {
+        
+        Auth.auth().createUser(withEmail: "user1@gmail.com", password: "12345678") { (user: User?, error: Error?) in
+            if error != nil {
+                print(error?.localizedDescription)
+                return
+            }
+            print(user)
+        }
+    }
 }

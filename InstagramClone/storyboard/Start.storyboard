@@ -128,9 +128,6 @@
                                         <state key="normal" title="Sign Up">
                                             <color key="titleColor" white="1" alpha="0.66556078770000004" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <segue destination="nQ3-tp-sDq" kind="show" id="bfk-kK-6tb"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -148,6 +145,7 @@
                                 </state>
                                 <connections>
                                     <action selector="dismissOnClicked:" destination="EYM-1r-RY8" eventType="touchUpInside" id="ngp-p9-ugy"/>
+                                    <action selector="signUpButtonPressed:" destination="EYM-1r-RY8" eventType="touchUpInside" id="2vb-5L-ap8"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-user-100" translatesAutoresizingMaskIntoConstraints="NO" id="thQ-gO-Crw">
@@ -198,7 +196,4 @@
     <resources>
         <image name="icons8-user-100" width="100" height="100"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="bfk-kK-6tb"/>
-    </inferredMetricsTieBreakers>
 </document>
