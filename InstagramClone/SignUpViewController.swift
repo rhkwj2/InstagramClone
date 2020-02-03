@@ -8,6 +8,7 @@
 
 import UIKit
 import FirebaseAuth
+import FirebaseDatabase
 
 
 class SignUpViewController: UIViewController {
@@ -32,9 +33,9 @@ class SignUpViewController: UIViewController {
         bottomLayerUser.backgroundColor = UIColor(red: 50/255, green: 50/255, blue: 50/255, alpha: 0.8).cgColor
         
        
-            emailTextField.backgroundColor = UIColor.clear
-            emailTextField.tintColor = UIColor.white
-            emailTextField.attributedPlaceholder = NSAttributedString (string:emailTextField.placeholder! , attributes: [NSAttributedString.Key.foregroundColor: UIColor(white:1.0, alpha:0.6)])
+        emailTextField.backgroundColor = UIColor.clear
+        emailTextField.tintColor = UIColor.white
+        emailTextField.attributedPlaceholder = NSAttributedString (string:emailTextField.placeholder! , attributes: [NSAttributedString.Key.foregroundColor: UIColor(white:1.0, alpha:0.6)])
             let bottomLayerEmail = CALayer()
             bottomLayerEmail.frame = CGRect(x: 0, y: 29, width: 300, height: 0.6)
             bottomLayerEmail.backgroundColor = UIColor(red: 50/255, green: 50/255, blue: 50/255, alpha: 0.8).cgColor
@@ -43,7 +44,7 @@ class SignUpViewController: UIViewController {
             
             passwordTextField.backgroundColor = UIColor.clear
                 passwordTextField.tintColor = UIColor.white
-                passwordTextField.attributedPlaceholder = NSAttributedString (string:emailTextField.placeholder! , attributes: [NSAttributedString.Key.foregroundColor: UIColor(white:1.0, alpha:0.6)])
+                passwordTextField.attributedPlaceholder = NSAttributedString (string:passwordTextField.placeholder! , attributes: [NSAttributedString.Key.foregroundColor: UIColor(white:1.0, alpha:0.6)])
                    
             let bottomLayerPassword = CALayer()
             bottomLayerPassword.frame = CGRect(x: 0, y: 29, width: 300, height: 0.6)
@@ -71,12 +72,20 @@ class SignUpViewController: UIViewController {
     
     @IBAction func signUpButtonPressed(_ sender: UIButton) {
         
-        Auth.auth().createUser(withEmail: "user1@gmail.com", password: "12345678") { (user: User?, error: Error?) in
+        Auth.auth().createUser(withEmail: emailTextField.text!, password: passwordTextField.text!) { (user: User?, error: Error?) in
             if error != nil {
                 print(error?.localizedDescription)
                 return
             }
-            print(user)
+            let ref = Database().reference()
+            let usersRefrence = ref.child("user")
+            // print(usersRefrence.description())
+            // We can see at http://goo.gl/RfcP7r)
+            let uid = user?.uid
+            let newUserRefrence = usersRefrence.child(uid!)
+            newUserRefrence.setValue(["username":self.userNameTextField.text!, "email":self.emailTextField.text!])
+            //Do not make password value for secret.
+            print("desciption\(newUserRefrence.description())")
         }
     }
 }
